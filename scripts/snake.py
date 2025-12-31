@@ -1,6 +1,7 @@
 import turtle
 import time
 import random
+import colorsys
 
 delay = 0.1
 score = 0
@@ -13,11 +14,37 @@ wn.bgcolor("black")
 wn.setup(width=600, height=600)
 wn.tracer(0)
 
-# Snake head
+# Create a compound shape for a more interesting snake head (with eyes)
+def _register_snake_head_shape():
+    head_shape = turtle.Shape("compound")
+    # Main head square (20x20)
+    main = [(-10, -10), (10, -10), (10, 10), (-10, 10)]
+    head_shape.addcomponent(main, "#2ecc71", "#1e7a3a")
+
+    # Left eye (white)
+    left_eye = [(-6, 4), (-2, 4), (-2, 8), (-6, 8)]
+    head_shape.addcomponent(left_eye, "white", "black")
+    # Right eye (white)
+    right_eye = [(2, 4), (6, 4), (6, 8), (2, 8)]
+    head_shape.addcomponent(right_eye, "white", "black")
+
+    # Left pupil (black)
+    l_pupil = [(-5, 5), (-3, 5), (-3, 7), (-5, 7)]
+    head_shape.addcomponent(l_pupil, "black", "black")
+    # Right pupil (black)
+    r_pupil = [(3, 5), (5, 5), (5, 7), (3, 7)]
+    head_shape.addcomponent(r_pupil, "black", "black")
+
+    try:
+        turtle.register_shape('snake_head', head_shape)
+    except Exception:
+        pass
+
+
+_register_snake_head_shape()
 head = turtle.Turtle()
 head.speed(0)
-head.shape("square")
-head.color("green")
+head.shape('snake_head')
 head.penup()
 head.goto(0, 0)
 head.direction = "stop"
@@ -46,18 +73,22 @@ pen.write("Score: 0  High Score: 0", align="center", font=("Courier", 16, "norma
 def go_up():
     if head.direction != "down":
         head.direction = "up"
+        head.setheading(90)
 
 def go_down():
     if head.direction != "up":
         head.direction = "down"
+        head.setheading(270)
 
 def go_left():
     if head.direction != "right":
         head.direction = "left"
+        head.setheading(180)
 
 def go_right():
     if head.direction != "left":
         head.direction = "right"
+        head.setheading(0)
 
 def move():
     if head.direction == "up":
@@ -105,7 +136,12 @@ while True:
         new_segment = turtle.Turtle()
         new_segment.speed(0)
         new_segment.shape("square")
-        new_segment.color("green")
+        # Slightly smaller segments for a smoother look
+        new_segment.shapesize(stretch_wid=0.9, stretch_len=0.9)
+        # Gradient green color: hue near green, darken as snake grows
+        hue = max(0.15, 0.33 - min(len(segments), 20) * 0.015)
+        r, g, b = colorsys.hsv_to_rgb(hue, 0.9, 0.9)
+        new_segment.color((r, g, b))
         new_segment.penup()
         segments.append(new_segment)
 
