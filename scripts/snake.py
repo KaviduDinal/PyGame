@@ -3,7 +3,11 @@ import time
 import random
 import colorsys
 
-delay = 0.1
+# Movement speed configuration (increase INITIAL_DELAY to slow the snake)
+INITIAL_DELAY = 0.15
+MIN_DELAY = 0.05
+DELAY_DECREMENT = 0.0005
+delay = INITIAL_DELAY
 score = 0
 high_score = 0
 
@@ -122,7 +126,7 @@ while True:
         segments.clear()
 
         score = 0
-        delay = 0.1
+        delay = INITIAL_DELAY
         pen.clear()
         pen.write(f"Score: {score}  High Score: {high_score}",
                   align="center", font=("Courier", 16, "normal"))
@@ -145,7 +149,8 @@ while True:
         new_segment.penup()
         segments.append(new_segment)
 
-        delay -= 0.001
+        # Gradually speed up the snake as it grows, but don't go below MIN_DELAY
+        delay = max(MIN_DELAY, delay - DELAY_DECREMENT)
         score += 10
 
         if score > high_score:
@@ -178,7 +183,7 @@ while True:
             segments.clear()
 
             score = 0
-            delay = 0.1
+            delay = INITIAL_DELAY
             pen.clear()
             pen.write(f"Score: {score}  High Score: {high_score}",
                       align="center", font=("Courier", 16, "normal"))
