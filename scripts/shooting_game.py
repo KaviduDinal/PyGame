@@ -13,8 +13,24 @@ canvas = tk.Canvas(root, width=WIDTH, height=HEIGHT, bg="black")
 canvas.pack()
 
 # Player
-player = canvas.create_rectangle(280, 450, 320, 490, fill="green")
+# Try to load a custom shooter image (shooter.png). If unavailable, use a polygon fallback.
+shooter_img = None
+try:
+    shooter_img = tk.PhotoImage(file="shooter.png")
+except tk.TclError:
+    shooter_img = None
+
 player_speed = 20
+if shooter_img:
+    player = canvas.create_image(WIDTH // 2, HEIGHT - 50, image=shooter_img)
+else:
+    # Triangle fallback roughly matching previous rectangle position
+    player = canvas.create_polygon(
+        WIDTH // 2, HEIGHT - 70,
+        WIDTH // 2 - 20, HEIGHT - 30,
+        WIDTH // 2 + 20, HEIGHT - 30,
+        fill="green"
+    )
 
 # Lists
 bullets = []
@@ -28,18 +44,23 @@ game_running = True
 
 # Move player
 def move_left(event):
-    if canvas.coords(player)[0] > 0:
+    bbox = canvas.bbox(player)
+    if bbox and bbox[0] > 0:
         canvas.move(player, -player_speed, 0)
 
 def move_right(event):
-    if canvas.coords(player)[2] < WIDTH:
+    bbox = canvas.bbox(player)
+    if bbox and bbox[2] < WIDTH:
         canvas.move(player, player_speed, 0)
 
 # Shoot bullet
 def shoot(event):
     if not game_running:
         return
-    x1, y1, x2, y2 = canvas.coords(player)
+    bbox = canvas.bbox(player)
+    if not bbox:
+        return
+    x1, y1, x2, y2 = bbox
     bullet = canvas.create_rectangle(
         (x1 + x2) / 2 - 3, y1 - 10,
         (x1 + x2) / 2 + 3, y1,
@@ -98,8 +119,12 @@ def move_enemies():
 
 # Collision detection
 def check_collision(a, b):
-    ax1, ay1, ax2, ay2 = canvas.coords(a)
-    bx1, by1, bx2, by2 = canvas.coords(b)
+    a_bbox = canvas.bbox(a)
+    b_bbox = canvas.bbox(b)
+    if not a_bbox or not b_bbox:
+        return False
+    ax1, ay1, ax2, ay2 = a_bbox
+    bx1, by1, bx2, by2 = b_bbox
     return ax1 < bx2 and ax2 > bx1 and ay1 < by2 and ay2 > by1
 
 # Game over
