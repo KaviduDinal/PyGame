@@ -1,0 +1,25 @@
+{
+    "name": "kavidu",
+    "chats": [
+        {
+            "user": "My name is kavidu",
+            "bot": "Nice to meet you, kavidu!",
+            "time": "10:25:37"
+        },
+        {
+            "user": "hi whats going on",
+            "bot": "Hey! How can I help you?",
+            "time": "10:25:47"
+        },
+        {
+            "user": "give me the about albert einnstine",
+            "bot": "Interesting\u2026 tell me more.",
+            "time": "10:26:12"
+        },
+        {
+            "user": "i need to know abopout him age when he was dead",
+            "bot": "Hey! How can I help you?",
+            "time": "10:26:40"
+        }
+    ]
+}
