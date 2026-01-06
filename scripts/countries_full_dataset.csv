@@ -1,0 +1,116 @@
+country,continent,currency,population,nationality,religions,universities
+Afghanistan,Asia,Afghan Afghani,41128771,Afghan,Islam,Kabul University|Herat University
+Albania,Europe,Albanian Lek,2761785,Albanian,Islam|Christianity,University of Tirana
+Algeria,Africa,Algerian Dinar,45477389,Algerian,Islam,University of Algiers
+Andorra,Europe,Euro,79824,Andorran,Christianity,University of Andorra
+Angola,Africa,Angolan Kwanza,35588987,Angolan,Christianity,Agostinho Neto University
+Argentina,South America,Argentine Peso,46044703,Argentine,Christianity,University of Buenos Aires
+Armenia,Asia,Armenian Dram,2780469,Armenian,Christianity,Yerevan State University
+Australia,Oceania,Australian Dollar,26641000,Australian,Christianity|No Religion,University of Melbourne|ANU
+Austria,Europe,Euro,9120813,Austrian,Christianity,University of Vienna
+Azerbaijan,Asia,Azerbaijani Manat,10412651,Azerbaijani,Islam,Baku State University
+Bahamas,North America,Bahamian Dollar,412623,Bahamian,Christianity,University of The Bahamas
+Bahrain,Asia,Bahraini Dinar,1501635,Bahraini,Islam,University of Bahrain
+Bangladesh,Asia,Bangladeshi Taka,173562364,Bangladeshi,Islam|Hinduism,University of Dhaka|BUET
+Belgium,Europe,Euro,11754004,Belgian,Christianity|No Religion,KU Leuven
+Belize,North America,Belize Dollar,441471,Belizean,Christianity,University of Belize
+Benin,Africa,West African CFA Franc,13712828,Beninese,Christianity|Islam,University of Abomey-Calavi
+Bhutan,Asia,Bhutanese Ngultrum,787941,Bhutanese,Buddhism,Royal University of Bhutan
+Bolivia,South America,Bolivian Boliviano,12388571,Bolivian,Christianity,Universidad Mayor de San Andrés
+Botswana,Africa,Botswana Pula,2630296,Botswanan,Christianity,University of Botswana
+Brazil,South America,Brazilian Real,216422446,Brazilian,Christianity,University of São Paulo
+Bulgaria,Europe,Bulgarian Lev,6445481,Bulgarian,Christianity,Sofia University
+Cambodia,Asia,Cambodian Riel,17067877,Cambodian,Buddhism,Royal University of Phnom Penh
+Cameroon,Africa,Central African CFA Franc,28647293,Cameroonian,Christianity|Islam,University of Yaoundé
+Canada,North America,Canadian Dollar,40097761,Canadian,Christianity|No Religion,University of Toronto|UBC
+Chile,South America,Chilean Peso,19629590,Chilean,Christianity,University of Chile
+China,Asia,Renminbi (Yuan),1412000000,Chinese,Buddhism|Taoism|No Religion,Tsinghua University|Peking University
+Colombia,South America,Colombian Peso,52321152,Colombian,Christianity,National University of Colombia
+Costa Rica,North America,Costa Rican Colón,5266017,Costa Rican,Christianity,University of Costa Rica
+Croatia,Europe,Euro,3855641,Croatian,Christianity,University of Zagreb
+Cuba,North America,Cuban Peso,11212191,Cuban,Christianity,University of Havana
+Cyprus,Europe,Euro,1260138,Cypriot,Christianity,University of Cyprus
+Czech Republic,Europe,Czech Koruna,10900555,Czech,Christianity,Charles University
+Denmark,Europe,Danish Krone,5961249,Danish,Christianity,University of Copenhagen
+Dominican Republic,North America,Dominican Peso,11477939,Dominican,Christianity,UASD
+Ecuador,South America,US Dollar,18010359,Ecuadorian,Christianity,Central University of Ecuador
+Egypt,Africa,Egyptian Pound,112716598,Egyptian,Islam|Christianity,Cairo University
+Estonia,Europe,Euro,1322765,Estonian,Christianity|No Religion,University of Tartu
+Ethiopia,Africa,Ethiopian Birr,126527060,Ethiopian,Christianity|Islam,Addis Ababa University
+Finland,Europe,Euro,5617310,Finnish,Christianity,University of Helsinki
+France,Europe,Euro,68287487,French,Christianity|No Religion,Sorbonne University
+Georgia,Asia,Georgian Lari,3716100,Georgian,Christianity,Ivane Javakhishvili University
+Germany,Europe,Euro,83294633,German,Christianity|No Religion,LMU Munich
+Ghana,Africa,Ghanaian Cedi,34121985,Ghanaian,Christianity|Islam,University of Ghana
+Greece,Europe,Euro,10341277,Greek,Christianity,University of Athens
+Guatemala,North America,Guatemalan Quetzal,18660240,Guatemalan,Christianity,University of San Carlos
+Honduras,North America,Honduran Lempira,10593798,Honduran,Christianity,UNAH
+Hungary,Europe,Hungarian Forint,9606259,Hungarian,Christianity,Eötvös Loránd University
+Iceland,Europe,Icelandic Króna,382003,Icelander,Christianity,University of Iceland
+India,Asia,Indian Rupee,1429000000,Indian,Hinduism|Islam|Christianity,IIT Delhi|University of Delhi
+Indonesia,Asia,Indonesian Rupiah,277534122,Indonesian,Islam,University of Indonesia
+Iran,Asia,Iranian Rial,89172767,Iranian,Islam,University of Tehran
+Iraq,Asia,Iraqi Dinar,45504560,Iraqi,Islam,University of Baghdad
+Ireland,Europe,Euro,5255017,Irish,Christianity,Trinity College Dublin
+Israel,Asia,Israeli New Shekel,9877760,Israeli,Judaism|Islam,Hebrew University
+Italy,Europe,Euro,58909492,Italian,Christianity,University of Bologna
+Jamaica,North America,Jamaican Dollar,2839175,Jamaican,Christianity,University of the West Indies
+Japan,Asia,Japanese Yen,123990000,Japanese,Shinto|Buddhism,University of Tokyo
+Jordan,Asia,Jordanian Dinar,11337052,Jordanian,Islam,University of Jordan
+Kazakhstan,Asia,Kazakhstani Tenge,20033120,Kazakh,Islam|Christianity,Al-Farabi Kazakh University
+Kenya,Africa,Kenyan Shilling,55100586,Kenyan,Christianity|Islam,University of Nairobi
+Kuwait,Asia,Kuwaiti Dinar,4328550,Kuwaiti,Islam,Kuwait University
+Latvia,Europe,Euro,1850651,Latvian,Christianity,University of Latvia
+Lebanon,Asia,Lebanese Pound,5490000,Lebanese,Islam|Christianity,American University of Beirut
+Lithuania,Europe,Euro,2846682,Lithuanian,Christianity,Vilnius University
+Luxembourg,Europe,Euro,671254,Luxembourger,Christianity,University of Luxembourg
+Malaysia,Asia,Malaysian Ringgit,34308525,Malaysian,Islam,University of Malaya
+Maldives,Asia,Maldivian Rufiyaa,521021,Maldivian,Islam,Maldives National University
+Mexico,North America,Mexican Peso,129739759,Mexican,Christianity,UNAM
+Mongolia,Asia,Mongolian Tögrög,3447157,Mongolian,Buddhism,National University of Mongolia
+Morocco,Africa,Moroccan Dirham,37430347,Moroccan,Islam,University of Mohammed V
+Myanmar,Asia,Kyat,55122712,Burmese,Buddhism,University of Yangon
+Nepal,Asia,Nepalese Rupee,30896590,Nepalese,Hinduism|Buddhism,Tribhuvan University
+Netherlands,Europe,Euro,17905716,Dutch,Christianity|No Religion,University of Amsterdam
+New Zealand,Oceania,New Zealand Dollar,5228100,New Zealander,Christianity|No Religion,University of Auckland
+Nigeria,Africa,Nigerian Naira,227882945,Nigerian,Christianity|Islam,University of Ibadan
+North Korea,Asia,North Korean Won,26200000,North Korean,No Religion,Kim Il Sung University
+Norway,Europe,Norwegian Krone,5563898,Norwegian,Christianity,University of Oslo
+Oman,Asia,Omani Rial,4644384,Omani,Islam,Sultan Qaboos University
+Pakistan,Asia,Pakistani Rupee,241499431,Pakistani,Islam,University of Punjab
+Panama,North America,Balboa|US Dollar,4468087,Panamanian,Christianity,University of Panama
+Peru,South America,Peruvian Sol,34352719,Peruvian,Christianity,National University of San Marcos
+Philippines,Asia,Philippine Peso,117337368,Filipino,Christianity,University of the Philippines
+Poland,Europe,Polish Zloty,37654321,Polish,Christianity,University of Warsaw
+Portugal,Europe,Euro,10247605,Portuguese,Christianity,University of Lisbon
+Qatar,Asia,Qatari Riyal,2799202,Qatari,Islam,Qatar University
+Romania,Europe,Romanian Leu,19054727,Romanian,Christianity,University of Bucharest
+Russia,Europe,Russian Ruble,146447424,Russian,Christianity|Islam,Lomonosov Moscow State University
+Saudi Arabia,Asia,Saudi Riyal,36947025,Saudi,Islam,King Saud University
+Serbia,Europe,Serbian Dinar,6664449,Serbian,Christianity,University of Belgrade
+Singapore,Asia,Singapore Dollar,5921180,Singaporean,Christianity|Buddhism|Islam,NUS
+Slovakia,Europe,Euro,5432100,Slovak,Christianity,Comenius University
+Slovenia,Europe,Euro,2119675,Slovene,Christianity,University of Ljubljana
+South Africa,Africa,South African Rand,60414495,South African,Christianity|Traditional,University of Cape Town
+South Korea,Asia,South Korean Won,51743984,South Korean,Christianity|Buddhism,Seoul National University
+Spain,Europe,Euro,48610458,Spanish,Christianity,University of Barcelona
+Sri Lanka,Asia,Sri Lankan Rupee,22203700,Sri Lankan,Buddhism|Hinduism|Islam|Christianity,University of Colombo
+Sudan,Africa,Sudanese Pound,48109006,Sudanese,Islam,University of Khartoum
+Sweden,Europe,Swedish Krona,10551707,Swedish,Christianity|No Religion,Uppsala University
+Switzerland,Europe,Swiss Franc,8907060,Swiss,Christianity,ETH Zurich
+Syria,Asia,Syrian Pound,23227014,Syrian,Islam|Christianity,University of Damascus
+Taiwan,Asia,New Taiwan Dollar,23420000,Taiwanese,Buddhism|Taoism,National Taiwan University
+Thailand,Asia,Thai Baht,71601200,Thai,Buddhism,Chulalongkorn University
+Tunisia,Africa,Tunisian Dinar,12356117,Tunisian,Islam,University of Tunis
+Turkey,Asia,Turkish Lira,85664944,Turkish,Islam,Istanbul University
+Ukraine,Europe,Ukrainian Hryvnia,36600000,Ukrainian,Christianity,Kyiv University
+United Arab Emirates,Asia,UAE Dirham,9516871,Emirati,Islam,Khalifa University
+United Kingdom,Europe,Pound Sterling,67736802,British,Christianity|No Religion,University of Oxford
+United States,North America,US Dollar,339996563,American,Christianity|No Religion,Harvard University
+Uruguay,South America,Uruguayan Peso,3426260,Uruguayan,Christianity|No Religion,University of the Republic
+Uzbekistan,Asia,Uzbekistani Som,35648000,Uzbek,Islam,National University of Uzbekistan
+Venezuela,South America,Venezuelan Bolívar,28838499,Venezuelan,Christianity,Central University of Venezuela
+Vietnam,Asia,Vietnamese Dong,100300000,Vietnamese,Buddhism|No Religion,Vietnam National University
+Yemen,Asia,Yemeni Rial,34449825,Yemeni,Islam,Sana'a University
+Zambia,Africa,Zambian Kwacha,20569682,Zambian,Christianity,University of Zambia
+Zimbabwe,Africa,Zimbabwean Dollar,16665409,Zimbabwean,Christianity,University of Zimbabwe
