@@ -1,0 +1,28 @@
+series,variant,model_year,display,camera,battery,chip,storage,colors,price_usd
+iPhone 11,Normal,2019,6.1 LCD,12MP Dual,3110mAh,A13,"64|128|256","Black|White|Red|Green|Yellow|Purple",699
+iPhone 11,Pro,2019,5.8 OLED,12MP Triple,3046mAh,A13,"64|256|512","Midnight Green|Silver|Gold|Space Gray",999
+iPhone 11,Pro Max,2019,6.5 OLED,3969mAh,A13,"64|256|512","Midnight Green|Silver|Gold|Space Gray",1099
+
+iPhone 12,Normal,2020,6.1 OLED,12MP Dual,2815mAh,A14,"64|128|256","Black|White|Red|Green|Blue",799
+iPhone 12,Pro,2020,6.1 OLED,12MP Triple,2815mAh,A14,"128|256|512","Graphite|Silver|Gold|Pacific Blue",999
+iPhone 12,Pro Max,2020,6.7 OLED,3687mAh,A14,"128|256|512","Graphite|Silver|Gold|Pacific Blue",1099
+
+iPhone 13,Normal,2021,6.1 OLED,12MP Dual,3240mAh,A15,"128|256|512","Pink|Blue|Midnight|Starlight|Red",699
+iPhone 13,Pro,2021,6.1 OLED 120Hz,12MP Triple,3095mAh,A15,"128|256|512|1TB","Graphite|Gold|Silver|Sierra Blue",999
+iPhone 13,Pro Max,2021,6.7 OLED 120Hz,4352mAh,A15,"128|256|512|1TB","Graphite|Gold|Silver|Sierra Blue",1099
+
+iPhone 14,Normal,2022,6.1 OLED,12MP Dual,3279mAh,A15,"128|256|512","Blue|Purple|Midnight|Starlight|Red",799
+iPhone 14,Pro,2022,6.1 OLED 120Hz,48MP Triple,3200mAh,A16,"128|256|512|1TB","Deep Purple|Gold|Silver|Black",999
+iPhone 14,Pro Max,2022,6.7 OLED 120Hz,4323mAh,A16,"128|256|512|1TB","Deep Purple|Gold|Silver|Black",1099
+
+iPhone 15,Normal,2023,6.1 OLED,48MP Dual,3349mAh,A16,"128|256|512","Black|Blue|Green|Yellow|Pink",799
+iPhone 15,Pro,2023,6.1 OLED 120Hz,48MP Triple,3274mAh,A17 Pro,"128|256|512|1TB","Natural|Blue|White|Black Titanium",999
+iPhone 15,Pro Max,2023,6.7 OLED 120Hz,4422mAh,A17 Pro,"256|512|1TB","Natural|Blue|White|Black Titanium",1199
+
+iPhone 16,Normal,2024,6.1 OLED,48MP Dual,3500mAh,A18,"128|256|512","Black|White|Blue|Green|Pink",799
+iPhone 16,Pro,2024,6.3 OLED 120Hz,48MP Triple,3350mAh,A18 Pro,"256|512|1TB","Titanium Black|White|Blue|Natural",1099
+iPhone 16,Pro Max,2024,6.9 OLED 120Hz,48MP Triple,4700mAh,A18 Pro,"256|512|1TB","Titanium Black|White|Blue|Natural",1199
+
+iPhone 17,Normal,2025,6.1 OLED,48MP Dual,3600mAh,A19,"128|256|512","Black|White|Purple|Blue",899
+iPhone 17,Pro,2025,6.3 OLED 120Hz,48MP Quad,3500mAh,A19 Pro,"256|512|1TB","Titanium Gray|Silver|Blue",1199
+iPhone 17,Pro Max,2025,6.9 OLED 120Hz,48MP Quad,4900mAh,A19 Pro,"256|512|1TB","Titanium Gray|Silver|Blue",1299
