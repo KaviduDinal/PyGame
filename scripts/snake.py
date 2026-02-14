@@ -4,6 +4,7 @@ import random
 import colorsys
 
 # Movement speed configuration (increase INITIAL_DELAY to slow the snake)
+
 INITIAL_DELAY = 0.15
 MIN_DELAY = 0.05
 DELAY_DECREMENT = 0.0005
