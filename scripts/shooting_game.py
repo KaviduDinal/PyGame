@@ -12,6 +12,7 @@ root.resizable(False, False)
 canvas = tk.Canvas(root, width=WIDTH, height=HEIGHT, bg="black")
 canvas.pack()
 
+
 # Player
 # Try to load a custom shooter image (shooter.png). If unavailable, use a polygon fallback.
 
