@@ -6,6 +6,7 @@ data = pd.read_csv("countries_full_dataset.csv")
 # Convert country names to lowercase for easy searching
 data["country"] = data["country"].str.lower()
 
+
 while True:
     country_name = input("\nEnter country name (or type 'exit' to quit): ").lower()
 
