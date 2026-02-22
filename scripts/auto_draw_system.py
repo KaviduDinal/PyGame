@@ -8,6 +8,7 @@ import turtle
 import math
 import random
 
+
 # ---------------- SCREEN SETUP ----------------
 screen = turtle.Screen()
 screen.setup(width=900, height=700)
