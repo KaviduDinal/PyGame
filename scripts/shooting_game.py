@@ -14,6 +14,7 @@ canvas.pack()
 
 # Player
 # Try to load a custom shooter image (shooter.png). If unavailable, use a polygon fallback.
+
 shooter_img = None
 try:
     shooter_img = tk.PhotoImage(file="shooter.png")
