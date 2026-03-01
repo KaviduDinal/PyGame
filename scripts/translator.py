@@ -2,7 +2,7 @@ from deep_translator import GoogleTranslator
 
 def translate_text():
     print("🌍 Language Translator")
-    print("----------------------")
+    print("-----------------------")
 
     text = input("Enter text to translate: ")
     source = input("Source language (auto or en, si, ta, fr): ")
