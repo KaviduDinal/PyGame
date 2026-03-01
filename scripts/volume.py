@@ -20,7 +20,7 @@ def record_history(shape, formula, volume):
 
 def show_history():
     if not history:
-        print("\nNo calculations done yet.\n")
+        print("\nNo calculations done yet...\n")
         return
     print("\n======= CALCULATION HISTORY =======")
     for h in history:
